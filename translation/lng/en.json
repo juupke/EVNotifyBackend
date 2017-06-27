@@ -1,11 +1,15 @@
 {
-    "EVNOTIFY_MAIL_SUBJECT": "",
-    "EVNOTIFY_MAIL_TEXT": "",
-    "TELEGRAM_HELP_TEXT": "",
-    "TELEGRAM_TOKEN_ENTER": "",
-    "TELEGRAM_SUBSCRIBTION_SUCCESSFULL": "",
-    "TELEGRAM_SUBSCRIBTION_FAILED": "",
-    "TELEGRAM_UNSUBSCRIBTION_SUCCESSFULL": "",
-    "TELEGRAM_UNSUBSCRIBTION_FAILED": "",
-    "TELEGRAM_NOTIFICATION_MESSAGE": ""
+    "EVNOTIFY_MAIL_SUBJECT": "EVNotify - Charging status notification",
+    "EVNOTIFY_MAIL_TEXT": "The desired charging status has just been reached. Thank you for using EVNotify. ",
+    "TELEGRAM_START_TEXT": "Hi! I am the EVNotify Bot and I will notify you about your charging status, if you like. Just enter /subscribe to begin! If you need any help, you can enter /help at any time.",
+    "TELEGRAM_HELP_TEXT": "I can notify you about the charging status of your Electric Vehicle. To do this, just enter /subscribe. If you don't want any additional messages, simply enter /unsubscribe.",
+    "TELEGRAM_TOKEN_ENTER": "I will be able to notify you soon. However first I need your tiken. You can find this in the app under Settings. Do not ever share this with third parties!",
+    "TELEGRAM_SUBSCRIBTION_SUCCESSFULL": "Great! As of now I can send you notifications. Set the desired value in the app and I will notify you as soon as this value is reached.",
+    "TELEGRAM_SUBSCRIBTION_FAILED": "Huh? Somehow there is not much I can do with this token - are you sure it is correct? Please try with a renewal of /subscribe.",
+    "TELEGRAM_UNSUBSCRIBTION_SUCCESSFULL": "I won't notify you again. In case you change your mind, you can change your Notifier ",
+    "TELEGRAM_UNSUBSCRIBTION_FAILED": "Interesting, something went wrong with the delivery",
+    "TELEGRAM_NOTIFICATION_MESSAGE": "Hi! I just wanted to notify you quickly of the fact that your EV has reached the disired. "
 }
+
+
+ 
